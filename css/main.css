@@ -1,0 +1,303 @@
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px grey;
+    min-height: 54px;
+    z-index: 1;
+
+   
+}
+
+
+.header__nav {
+    color: #000;
+    font-size: 15px;
+    line-height: 22.5px;
+    padding: 8px 24px;
+    letter-spacing: 4px;
+    font-weight: 500;
+
+}
+
+.header__nav-infor>a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header__nav-home {
+    color: #000;
+    text-decoration: none;
+    padding:8px 0;
+}
+
+.header__nav-ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.header__nav-infor {
+    font-size: 16px;
+    padding: 8px 16px;
+    
+
+}
+.header__nav-infor:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+.background {
+    overflow: hidden;
+}
+
+.img__home {
+    position: relative;
+    width: 100%;
+    margin-left: 7px;
+    
+}
+.center-responsive {
+    position: relative;
+}
+.text-center {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 32px;
+    letter-spacing: 4px;
+}
+.text-BR {
+    padding: 16px 18px;
+    margin-right: 4px;
+    background-color: rgba(0, 0,0 , 0.8);
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+}
+
+.text-Ar {
+    color: #fff;
+    
+    
+}   
+
+.content-text {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 24px 0;
+    margin: 10px 0;
+}
+.line-draw  {
+    border-bottom: 1px solid #ccc;
+   
+    
+}
+
+.img {
+    position: relative;
+    margin: 8px 0;
+   
+}
+
+.content__img {
+    
+    width: 100%;
+}
+
+.img-display {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 18px;
+}
+
+.img__home {
+    position: relative;
+    width: 100%;
+    
+}
+
+.img-home-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    font-size: 36px;
+    letter-spacing: 2px;
+    
+}
+.img-home-text{
+    color: #fff;
+}
+.style-center {
+    text-decoration: none;
+    background-color: rgba(0, 0,0 , 0.6);
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 14px;
+    margin: 0 8px;
+    
+   
+}
+.img-home-text {
+    /* margin: auto;
+    align-items: center;
+    justify-content: center; */
+}
+/*  */
+.about-title  {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 10px 0;
+    margin: 10px 0;
+    
+}
+
+
+
+/*  */
+
+/* ABOUT */
+
+.about__img {
+    padding: 8px 0;
+}
+
+.about-title {
+    font-size: 24px;
+    padding: 24px 0;
+}
+
+.about__img-img {
+    width: 100%;
+}
+/* 
+.about-text {
+    margin: 0;
+} */
+
+.about-desc {
+    padding: 24px 0;
+}
+
+.img-name {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 10px 0;
+}
+
+.img-job {
+    font-size: 15px;
+    line-height: 22.5px;
+    margin: 15px 0;
+    opacity: 0.6;
+}
+
+.img-desc {
+    font-size: 15px 0;
+    line-height: 22.5px;
+    margin: 16px 0;
+}
+
+.img-button {
+    width: 100%;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 22.5px;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+}
+
+.img-button:hover {
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+
+
+
+/* Contact*/
+
+.contact-infor {
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 8px;
+    border: 1px solid #ccc;
+    margin: 8px 0;
+}
+
+.contact-text {
+
+}
+
+.contact-title {
+    font-size: 22px;
+    /* margin: 16px 0; */
+    padding: 16px 0;
+}
+
+.contact-desc {
+    padding: 24px 0;
+}
+
+.contact-input {
+
+}
+
+.contact-infor {
+    margin: 16px 0;
+}
+
+.contact-sumbit {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 8px 12px;
+    margin-top: 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.contact-sumbit:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    color: #000;
+}
+
+.map {
+    margin: 38px 0;
+    overflow: hidden;
+}
+
+.map-img {
+    width: 100%;
+}
+
+
+/* / footer */
+
+.footer-text {
+    display: flex;
+    justify-content:center;
+    background-color: #000;
+    color: #fff;
+    padding: 36px 0;
+}
+
+.text-a {
+    color: #fff;
+    margin: 0 4px;
+}
